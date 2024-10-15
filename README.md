@@ -18,6 +18,11 @@ Voor deze leertaak heb ik gekozen voor Astro als site generator en besloten om v
 <!-- Voeg een link toe naar Github Pages 🌐-->
 Ik ga de vacaturepagina bouwen, daar hoort bij onderzoek over het framework, installatie, testen van het product, live zetten (integreren) en eventueel migration van oude code - [Astro / Vacaturesite pagina](https://github.com/orgs/fdnd-agency/projects/40/views/1?pane=issue&itemId=83301252)
 
+### Waarom Astro 
+
+### Waarom Astro voor dit project ? 
+
+
 
 
 ## Kenmerken

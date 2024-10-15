@@ -28,9 +28,9 @@ Astro probeert de Javascript in een project zo veel mogelijker te verminderen al
 
 Een paar key features : 
 
-- **Static site generation ** 
+- **Static site generation** 
 
-- **Partial Hydration: ** Astro verzend alleen JavaScript naar de browser wanneer dat nodig is. Voor een vacaturewebsite betekent dit dat paginas zonder interactieve elementen geen onnodige JavaScript bevatten, wat zorgt voor een veel snellere laadtijd.
+- **Partial Hydration:** Astro verzend alleen JavaScript naar de browser wanneer dat nodig is. Voor een vacaturewebsite betekent dit dat paginas zonder interactieve elementen geen onnodige JavaScript bevatten, wat zorgt voor een veel snellere laadtijd.
 
 
 

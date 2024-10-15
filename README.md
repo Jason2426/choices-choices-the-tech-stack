@@ -20,8 +20,15 @@ Ik ga de vacaturepagina bouwen, daar hoort bij onderzoek over het framework, ins
 
 ### Waarom Astro 
 
-### Waarom Astro voor dit project ? 
+Met Astro kun je websites bouwen die kwa performance super goed zijn, daarnaast maak je er ook tegelijkertijd een schaalbare (klaar voor uitbreiding) website van en ook eenvoudig te beheren door de flexibiliteit die het brengt. Met Astro kun je bijvoorbeeld ook componenten bouwen en gebruiken in een ander framework zoals ReactJs, Svelte.kit of Vue.Js en dit zorgt voor veel flexibiliteit wat meestal goed is. **Waarom dit handig is?** Sommige frameworks zijn nou eenmaal iets beter voor het maken van bepaalde component zoals React.Js bij het maken van een filterfunctie of zoekfunctie. React is bijvoorbeeld een framework wat al best lang bestaat en goed is getest dus hiervoor kun je bepaalde bestaande libraries gebruiken. 
 
+Astro prbeert de Javascript in een project zo veel mogelijker te verminderen als er onnodige Javascript is geschreven word dit niet geladen en daarmee bereik je vaak een verbeterde perforamance. Je kunt bijvoorbeeld componenten een prioriteit geven voor het laden en indien nodig gelijk of pas als het component visueel zichtbaar is wat nogmaals de performance van de website kan verbeteren. 
+
+Een paar key features : 
+
+- **Static site generation ** 
+
+- **Partial Hydration: ** Astro verzend alleen JavaScript naar de browser wanneer dat nodig is. Voor een vacaturewebsite betekent dit dat paginas zonder interactieve elementen geen onnodige JavaScript bevatten, wat zorgt voor een veel snellere laadtijd.
 
 
 

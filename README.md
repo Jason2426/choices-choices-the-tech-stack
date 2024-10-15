@@ -1,7 +1,7 @@
 
-# New Techstack
+# [Astro 🚀](https://astro.build/)
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
-Voor deze leertaak heb ik gekozen voor Astro als site generator en besloten om verder te werken met Directus. Ik zal eerst kijken of ik gewoon pure astro snel op kan pakken en eventueel voor uitdaging dan Svelte.kit of Vue.js kan gaan gebruiken
+Voor deze leertaak heb ik gekozen voor Astro als site generator en besloten om verder te werken met Directus. Ik ga eerst kijken of ik alleen pure astro snel op kan pakken en als dat zo is voor uitdaging astro gebruiken in combinatie met Svelte, Vue of React.
 
 ## Inhoudsopgave
 
@@ -17,6 +17,8 @@ Voor deze leertaak heb ik gekozen voor Astro als site generator en besloten om v
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
 Ik ga de vacaturepagina bouwen, daar hoort bij onderzoek over het framework, installatie, testen van het product, live zetten (integreren) en eventueel migration van oude code - [Astro / Vacaturesite pagina](https://github.com/orgs/fdnd-agency/projects/40/views/1?pane=issue&itemId=83301252)
+
+
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->

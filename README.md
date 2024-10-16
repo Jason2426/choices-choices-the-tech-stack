@@ -30,7 +30,7 @@ Een paar key features :
 
 - **Static site generation** Een van de sterke punten van Astro is de mogelijkheid om statische websites te genereren die supersnel laden. Voor een vacaturewebsite met veel vacatures en bureaupagina’s zorgt een statische site ervoor dat pagina’s razendsnel laden, zelfs als er duizenden vacatures zijn. Dit is essentieel voor zowel de gebruikerservaring als voor zoekmachineoptimalisatie (SEO)
 
-- **Partial Hydration:** astro verzend alleen JavaScript naar de browser wanneer dat nodig is. Voor een vacaturewebsite betekent dit dat paginas zonder interactieve elementen geen onnodige JavaScript bevatten, wat zorgt voor een veel snellere laadtijd.
+- **Partial Hydration**, astro verzend alleen JavaScript naar de browser wanneer dat nodig is. Voor een vacaturewebsite betekent dit dat paginas zonder interactieve elementen geen onnodige JavaScript bevatten, wat zorgt voor een veel snellere laadtijd.
   
 - **Fast Loading Times**, aangezien Astro supersnelle websites maakt, draagt dit direct bij aan een betere SEO-prestatie.
   

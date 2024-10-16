@@ -18,23 +18,7 @@ Voor deze leertaak heb ik gekozen voor Astro als site generator en besloten om v
 <!-- Voeg een link toe naar Github Pages 🌐-->
 Ik ga de vacaturepagina bouwen, daar hoort bij onderzoek over het framework, installatie, testen van het product, live zetten (integreren) en eventueel migration van oude code - [Astro / Vacaturesite pagina](https://github.com/orgs/fdnd-agency/projects/40/views/1?pane=issue&itemId=83301252)
 
-### Waarom Astro 
-
-Met Astro kun je websites bouwen die kwa performance super goed zijn, daarnaast maak je er ook tegelijkertijd een schaalbare (klaar voor uitbreiding) website van en ook eenvoudig te beheren door de flexibiliteit die het brengt. Met Astro kun je bijvoorbeeld ook componenten bouwen en gebruiken in een ander framework zoals ReactJs, Svelte.kit of Vue.Js, dit zorgt voor veel flexibiliteit en uiteindelijk ook in een betere performance.
-
-**Waarom dit handig is?** Sommige frameworks zijn nou eenmaal iets beter voor het maken van bepaalde componenten zoals React.Js bij het maken van een filterfunctie of zoekfunctie. React is bijvoorbeeld een framework wat al best lang bestaat en goed is getest dus hiervoor kun je bepaalde bestaande libraries gebruiken. 
-
-Astro probeert de Javascript in een project zo veel mogelijker te verminderen als er onnodige Javascript is geschreven word dit niet geladen en daarmee bereik je altijd een betere perforamance. Je kunt bijvoorbeeld componenten een prioriteit geven voor het laden en indien nodig gelijk of pas als het component visueel zichtbaar is wat nogmaals de performance van de website kan verbeteren (Progressive Enhancement).
-
-Een paar key features : 
-
-- **Static site generation** Een van de sterke punten van Astro is de mogelijkheid om statische websites te genereren die supersnel laden. Voor een vacaturewebsite met veel vacatures en bureaupagina’s zorgt een statische site ervoor dat pagina’s razendsnel laden, zelfs als er duizenden vacatures zijn. Dit is essentieel voor zowel de gebruikerservaring als voor zoekmachineoptimalisatie (SEO)
-
-- **Partial Hydration**, astro verzend alleen JavaScript naar de browser wanneer dat nodig is. Voor een vacaturewebsite betekent dit dat paginas zonder interactieve elementen geen onnodige JavaScript bevatten, wat zorgt voor een veel snellere laadtijd.
-  
-- **Fast Loading Times**, aangezien Astro supersnelle websites maakt, draagt dit direct bij aan een betere SEO-prestatie.
-  
-- **Supports Dynamic and Static Content**, statische pagina’s zoals 'Over ons' kunnen vooraf gegenereerd worden, terwijl dynamische secties zoals vacaturelijsten afhankelijk van de behoefte met server-side APIs worden geladen
+## [TechStack Research 🔍](https://github.com/Jason2426/choices-choices-the-tech-stack/wiki)
 
 
 ## Kenmerken

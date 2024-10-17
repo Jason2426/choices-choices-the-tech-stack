@@ -1,0 +1,21 @@
+---
+interface Props {
+    title: string; //title is required and must be a string.
+    subtitle?: string; //subtitle is optional, but if present, it must be a string.
+}
+
+const {title, subtitle} = Astro.props;
+
+---
+
+<section class="intro-section">
+    <!--Link Component -->
+    <h1>{title}</h1>
+    <p><slot name="subtitle">{subtitle}</slot></p>
+</section>
+
+<style>
+    h1 {
+        font-family: var(--archivo);
+    }
+</style>

@@ -19,6 +19,7 @@ Voor deze leertaak heb ik gekozen voor Astro als site generator en besloten om v
 Ik ga de vacaturepagina bouwen, daar hoort bij onderzoek over het framework, installatie, testen van het product, live zetten (integreren) en eventueel migration van oude code - [Astro / Vacaturesite pagina](https://github.com/orgs/fdnd-agency/projects/40/views/1?pane=issue&itemId=83301252)
 
 ## [TechStack Research 🔍](https://github.com/Jason2426/choices-choices-the-tech-stack/wiki)
+> Op deze pagina kun je de research lezen voor mijn gekozen techstack, onder andere de voordelen maar ook nadelen die ik in overweging heb moeten brengen voor de eindkeuze.
 
 
 ## Kenmerken

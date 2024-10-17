@@ -1,4 +1,4 @@
-# Astro
+# Astro x Directus 🚀 🐇
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
 ## Inhoudsopgave
@@ -13,6 +13,8 @@
 ## Beschrijving
 
 Ik ga de vacaturepagina bouwen, daar hoort bij onderzoek over het framework, installatie, testen van het product, live zetten (integreren) en eventueel migration van oude code - [Astro / Vacaturesite pagina](https://github.com/orgs/fdnd-agency/projects/40/views/1?pane=issue&itemId=83301252)
+
+### [Research / Techstack](https://github.com/Jason2426/choices-choices-the-tech-stack/wiki)
 
 ## Kenmerken
 

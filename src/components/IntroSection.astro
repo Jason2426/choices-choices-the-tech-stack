@@ -15,7 +15,23 @@ const {title, subtitle} = Astro.props;
 </section>
 
 <style>
-    h1 {
-        font-family: var(--archivo);
+    .intro-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 0.55em;
+        margin: 7.5% 10% 10% 10%;
+    }
+    @media (min-width: 842px ){
+        .intro-section {
+            margin: 7.5% 20% 15% 20%;
+        }
+    }
+    @media (min-width: 1332px ){
+        .intro-section {
+            margin: 7.5% 25% 15% 25%;
+        }
     }
 </style>

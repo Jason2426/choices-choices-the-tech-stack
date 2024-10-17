@@ -1,0 +1,15 @@
+---
+
+// This interface helps ensure type safety in your Astro project
+// by ensuring that the props passed into a component adhere to this structure,
+// preventing runtime errors related to incorrect or missing props.
+interface Props {
+    name: string; //name is required and must be a string.
+    greeting?: string; //greeting is optional, but if present, it must be a string.
+}
+
+const {greeting, name} = Astro.props;
+
+---
+
+<h1>{greeting}, {name}!</h1>

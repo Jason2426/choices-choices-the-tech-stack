@@ -31,6 +31,8 @@ Ik ga de vacaturepagina bouwen, daar hoort bij onderzoek over het framework, ins
 
 ## Bronnen
 
+-[Getting started with Directus & Astro](https://docs.directus.io/blog/getting-started-directus-astro.html)
+
 ## Licentie
 
 This project is licensed under the terms of the [MIT license](./LICENSE).

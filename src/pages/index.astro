@@ -1,16 +1,40 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import IntroSection from '../components/IntroSection.astro';
+import { createDirectus, readItems } from '@directus/sdk';
+import directus from '../lib/directus';
+
+const vacatures = await directus.request(
+  readItems("/dda_agencies_vacancies", {
+    fields: [
+      "title",
+      "locatie",
+      "hours",
+    ],
+  })
+);
 
 ---
 
 <Layout title="DDA">
-
     <IntroSection
         title="Vacatures"
         subtitle="Verslim je carrière bij de beste digitale bureaus van Nederland. Pak je rol als developer of designer, researcher, als scrum master of marketeer, als strateeg. Start of groei door – en laat zien wat je kan."
     />
+
+    <ul>
+		{
+			vacatures.map((vacature) => (
+			<li>
+				<h2>{vacature.title}</h2>
+				<p>{vacature.locatie}</p>
+				<p>{vacature.hours}</p>
+			</li>
+			))
+		}
+		</ul>
     
 </Layout>
+
 
 

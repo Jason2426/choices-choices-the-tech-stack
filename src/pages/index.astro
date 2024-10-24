@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import IntroSection from '../components/IntroSection.astro';
+import Vacancy from '../components/Vacancy.astro';
 import { createDirectus, readItems } from '@directus/sdk';
 import directus from '../lib/directus';
 
@@ -17,24 +18,41 @@ const vacatures = await directus.request(
 ---
 
 <Layout title="DDA">
-    <IntroSection
+  <IntroSection
         title="Vacatures"
         subtitle="Verslim je carrière bij de beste digitale bureaus van Nederland. Pak je rol als developer of designer, researcher, als scrum master of marketeer, als strateeg. Start of groei door – en laat zien wat je kan."
-    />
-
-    <ul>
-		{
-			vacatures.map((vacature) => (
-			<li>
-				<h2>{vacature.title}</h2>
-				<p>{vacature.locatie}</p>
-				<p>{vacature.hours}</p>
-			</li>
-			))
-		}
-		</ul>
+  />
+  
+  <section class="vacancies-section">
+    {vacatures.map((vacature) => (
+      <Vacancy
+        title={vacature.title}
+        language="/"
+        company="/"
+        hours={vacature.hours}
+        city={vacature.locatie}
+        href="/"
+        client:visible
+      />
+    ))}
+  </section>
     
 </Layout>
+
+<style>
+  .vacancies-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (min-width: 686px){
+    .vacancies-section {
+      margin: 0 2.5% 0% 2.5%;
+    }
+  }
+
+
+</style>
 
 
 

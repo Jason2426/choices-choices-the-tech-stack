@@ -1,16 +1,16 @@
 @font-face {
     font-family: Archivo;
-    src: url(/public/font/Archivo-VariableFont_wdth\,wght.ttf);
+    src: url(/font/Archivo-VariableFont_wdth\,wght.ttf);
 }
 
 @font-face {
     font-family: Archivo Italic;
-    src: url(/public/font/Archivo-Italic-VariableFont_wdth\,wght.ttf);
+    src: url(/font/Archivo-Italic-VariableFont_wdth\,wght.ttf);
 }
 
 @font-face {
     font-family: Martian Mono;
-    src: url(/public/font/MartianMono-VariableFont_wdth\,wght.ttf);
+    src: url(/font/MartianMono-VariableFont_wdth\,wght.ttf);
 }
 
 * {
